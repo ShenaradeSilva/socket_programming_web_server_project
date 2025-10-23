@@ -18,16 +18,6 @@ The system demonstrates how a client can send an HTTP GET request to a server an
 
 ---
 
-### File Structure
-│
-├── Client.py # HTTP Client – sends GET requests to server
-├── Server.py # Single-threaded HTTP Web Server
-├── MultiThreadedServer.py # Threaded version to handle multiple clients
-├── index.html # Sample HTML file served by the server
-└── README.md # Project documentation
-
----
-
 ### How to Run
 
 #### 1. Start the Server
@@ -69,6 +59,8 @@ File /index.html was sent on Thread-1
 Client Output (file not found):
   HTTP/1.1 404 Not Found
   <!doctype html><html><body><h1>404 Not Found</h1></body></html>
+
+---
 
 ### Key Learning Outcomes
 - Understanding TCP socket programming in Python.
