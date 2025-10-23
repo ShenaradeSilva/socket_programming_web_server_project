@@ -58,8 +58,7 @@ File /index.html was sent on Thread-1
 
 Client Output (file not found):
   HTTP/1.1 404 Not Found
-  <!doctype html><html><body><h1>404 Not Found</h1></body></html>
-
+  
 ---
 
 ### Key Learning Outcomes
